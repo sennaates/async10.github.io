@@ -52,6 +52,27 @@
                 <h1 class="hero-title">Geleceğin Enerjisini Güvence Altına Alıyoruz</h1>
                 <p class="hero-subtitle">Async10: EV Şarj Ağı için Akıllı Güvenlik ve Anomali Tespit Çözümleri</p>
                 <a href="#proje" class="btn btn-primary">Projeyi İncele</a>
+                <div style="margin-top: 30px; display: flex; gap: 20px; flex-wrap: wrap;">
+                    <div style="margin-top: 30px; display: flex; gap: 15px; align-items: stretch;">
+
+                        <div style="background: rgba(49, 186, 170, 0.1); padding: 15px 20px; border-radius: 8px; border: 1px solid #31baaa; flex: 1;">
+                            <span style="display: block; font-size: 0.8rem; color: #b8c5d6; white-space: nowrap;">Analiz Edilen Veri</span>
+                            <span style="font-size: 1.4rem; font-weight: bold; color: #fff; white-space: nowrap;">1000+ Frame</span>
+                        </div>
+                        
+                        <div style="background: rgba(242, 126, 50, 0.1); padding: 15px 20px; border-radius: 8px; border: 1px solid #f27e32; flex: 1;">
+                            <span style="display: block; font-size: 0.8rem; color: #b8c5d6; white-space: nowrap;">Test Edilen Senaryo</span>
+                            <span style="font-size: 1.4rem; font-weight: bold; color: #fff; white-space: nowrap;">11 Farklı Saldırı</span>
+                        </div>
+                        
+                        <div style="background: rgba(159, 212, 108, 0.1); padding: 15px 20px; border-radius: 8px; border: 1px solid #9fd46c; flex: 1;">
+                            <span style="display: block; font-size: 0.8rem; color: #b8c5d6; white-space: nowrap;">DoS Tespit Başarısı</span>
+                            <span style="font-size: 1.4rem; font-weight: bold; color: #fff; white-space: nowrap;">≥ %95</span>
+                        </div>
+                    
+                    </div>
+                </div>
+                </div>
             </div>
             <div class="hero-visual">
                 <div class="charging-animation">
@@ -61,70 +82,124 @@
         </div>
     </section>
 
-    <!-- Proje Section -->
     <section class="proje" id="proje">
         <div class="container">
-            <h2 class="section-title">Projemiz</h2>
-            <p class="section-description">
-                Async10, elektrikli araç şarj istasyonlarını siber tehditlerden korumak ve operasyonel verimliliği 
-                artırmak için geliştirilmiş akıllı bir güvenlik platformudur.
-            </p>
+            <div style="text-align: center; margin-bottom: 50px;">
+                <h2 class="section-title">ML Destekli Güvenlik Mimarisi</h2>
+                <p class="section-description">
+                    Geleneksel kural tabanlı sistemlerin ötesinde; <strong>Machine Learning (ML)</strong> algoritmalarıyla güçlendirilmiş, kendi kendine öğrenen hibrit bir savunma sistemi.
+                </p>
+                <a href="https://github.com/sennaates/elektrikli-arac-sarj-istasyon-guvenligi-g10/tree/ML-olan-version" target="_blank" class="btn btn-primary" style="background: transparent; border: 1px solid #31baaa; color: #31baaa; display: inline-flex; align-items: center; gap: 10px; margin-top: 10px;">
+                    <i class="fab fa-github"></i> ML-olan-version Kodlarını İncele
+                </a>
+            </div>
+            
+            <div style="background: linear-gradient(135deg, rgba(33, 74, 111, 0.4) 0%, rgba(10, 10, 10, 0.6) 100%); padding: 30px; border-radius: 12px; border-left: 5px solid #31baaa; margin-bottom: 50px;">
+                <h3 style="color: #fff; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                    <i class="fas fa-crosshairs" style="color: #31baaa;"></i> 🎯 Amacımız Ne?
+                </h3>
+                <p style="color: #d1d5db; line-height: 1.7;">
+                    Elektrikli araç şarj istasyonlarında (EVSE) kullanılan OCPP protokolünü, araya girme (MitM) ve veri manipülasyonu saldırılarına karşı korumaktır. 
+                    Amacımız, <strong>Isolation Forest</strong> algoritmasını kullanarak henüz tanımlanmamış saldırıları (Zero-Day) davranışsal analiz ile tespit etmektir.
+                </p>
+            </div>
+
+            <h3 style="text-align: center; color: #fff; margin-bottom: 30px;">
+                ⚡ Ne Sunuyoruz?
+            </h3>
             
             <div class="features-grid">
-                <!-- Feature Card 1 -->
-                <div class="feature-card reveal">
-                    <div class="feature-icon">
-                        <i class="fas fa-shield-alt"></i>
+                <div class="feature-card reveal" style="border-top: 3px solid #f27e32;">
+                    <div class="feature-icon" style="color: #f27e32;">
+                        <i class="fas fa-brain"></i>
                     </div>
-                    <h3 class="feature-title">Gerçek Zamanlı Anomali Tespiti</h3>
+                    <h3 class="feature-title">Isolation Forest (ML)</h3>
                     <p class="feature-description">
-                        Makine öğrenmesi algoritmaları ile şarj istasyonlarındaki anormal davranışları 
-                        milisaniyeler içinde tespit eder ve sistemi korur.
+                        Normal şarj verilerini öğrenir ve standart dışı her hareketi (anomali) milisaniyeler içinde tespit ederek izole eder.
                     </p>
                 </div>
                 
-                <!-- Feature Card 2 -->
-                <div class="feature-card reveal">
-                    <div class="feature-icon">
+                <div class="feature-card reveal" style="border-top: 3px solid #31baaa;">
+                    <div class="feature-icon" style="color: #31baaa;">
                         <i class="fas fa-shield-virus"></i>
                     </div>
-                    <h3 class="feature-title">Yazılımsal Güvenlik Duvarı</h3>
+                    <h3 class="feature-title">Hibrit IDS</h3>
                     <p class="feature-description">
-                        Çok katmanlı güvenlik protokolleri ile şarj ağınızı zararlı yazılımlardan, 
-                        DDoS saldırılarından ve yetkisiz erişimlerden korur.
+                        Hem bilinen saldırıları (İmza Tabanlı) hem de bilinmeyen tehditleri (Anomali Tabanlı) yakalayan çift katmanlı koruma.
                     </p>
                 </div>
                 
-                <!-- Feature Card 3 -->
-                <div class="feature-card reveal">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-line"></i>
+                <div class="feature-card reveal" style="border-top: 3px solid #9fd46c;">
+                    <div class="feature-icon" style="color: #9fd46c;">
+                        <i class="fas fa-link"></i>
                     </div>
-                    <h3 class="feature-title">SWOT Analizi ve Raporlama</h3>
+                    <h3 class="feature-title">Blockchain & İmza</h3>
                     <p class="feature-description">
-                        Detaylı güvenlik raporları ve analitik dashboard ile sisteminizin güçlü ve 
-                        zayıf yönlerini anlık olarak izleyin.
+                        Her veri paketi SHA-256 ile zincire eklenir ve ECDSA ile imzalanır. Verinin değiştirilmediği matematiksel olarak kanıtlanır.
                     </p>
+                </div>
+            </div>
+
+            <div style="margin-top: 60px; text-align: center;">
+                <h3 style="color: #fff; margin-bottom: 20px;">🚀 Neden Bizi Seçmelisiniz?</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; text-align: left;">
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 8px;">
+                        <h4 style="color: #31baaa; margin-bottom: 5px;">✅ Adaptif Koruma</h4>
+                        <p style="color: #b8c5d6; font-size: 0.9rem;">
+                            Statik değil, öğrenen bir sistem. Saldırganlar taktik değiştirdikçe bizim yapay zeka modelimiz de kendini günceller.
+                        </p>
+                    </div>
+
+                    <div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 8px;">
+                        <h4 style="color: #31baaa; margin-bottom: 5px;">✅ Otonom Müdahale</h4>
+                        <p style="color: #b8c5d6; font-size: 0.9rem;">
+                            Saldırı tespit edildiği anda operatör beklemeden sistemi "Güvenli Mod"a alır ve zararı engeller.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Dökümanlar Section -->
     <section class="dokumanlar" id="dokumanlar">
         <div class="container">
-            <h2 class="section-title">Hazırlanan Dökümanlarımız</h2>
+            <h2 class="section-title">Haftalık Raporlar & Dökümanlar</h2>
             <p class="section-description">
-                Proje sürecinde hazırlanan tüm dökümanlar, raporlar ve analiz belgelerine haftalık olarak erişebilirsiniz.
+                Proje sürecinde hazırladığımız haftalık ilerleme raporları ve teknik dökümanlara buradan ulaşabilirsiniz.
             </p>
             
             <div class="documents-grid">
-                <!-- Hafta 1 -->
                 <a href="https://github.com/sennaates/elektrikli-arac-sarj-istasyon-guvenligi-g10/tree/main/1.Hafta" target="_blank" rel="noopener noreferrer" class="document-card reveal">
+                    <div class="document-icon">
+                        <i class="fas fa-folder"></i>
+                    </div>
+                    <h3 class="document-title">1. Hafta Raporu</h3>
+                    <span style="font-size: 0.8rem; color: #a0a0a0;">Başlangıç & Planlama</span>
+                </a>
+
+                <a href="https://github.com/sennaates/elektrikli-arac-sarj-istasyon-guvenligi-g10/tree/main/2.%20Hafta" target="_blank" rel="noopener noreferrer" class="document-card reveal">
                     <div class="document-icon">
                         <i class="fas fa-folder-open"></i>
                     </div>
-                    <h3 class="document-title">Hafta 1</h3>
+                    <h3 class="document-title">2. Hafta Raporu</h3>
+                    <span style="font-size: 0.8rem; color: #a0a0a0;">Analiz & Tasarım</span>
+                </a>
+
+                <a href="https://github.com/sennaates/elektrikli-arac-sarj-istasyon-guvenligi-g10/tree/main/3.%20hafta" target="_blank" rel="noopener noreferrer" class="document-card reveal">
+                    <div class="document-icon">
+                        <i class="fas fa-file-code"></i>
+                    </div>
+                    <h3 class="document-title">3. Hafta Raporu</h3>
+                    <span style="font-size: 0.8rem; color: #a0a0a0;">Geliştirme Süreci</span>
+                </a>
+
+                <a href="https://github.com/sennaates/elektrikli-arac-sarj-istasyon-guvenligi-g10/tree/main/4.%20Hafta" target="_blank" rel="noopener noreferrer" class="document-card reveal">
+                    <div class="document-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 class="document-title">4. Hafta Raporu</h3>
+                    <span style="font-size: 0.8rem; color: #a0a0a0;">Test & Final</span>
                 </a>
             </div>
         </div>
